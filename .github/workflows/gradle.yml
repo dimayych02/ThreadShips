@@ -1,4 +1,4 @@
-name: Java Thread
+name: Java Thread CI
 
 on:
   push:
@@ -23,6 +23,12 @@ jobs:
       run: chmod +x gradlew
 
     - name: Build with Gradle
+      run: ./gradlew build
+
+    - name: Run tests with Gradle
+      run: ./gradlew test
+
+    - name: Display build and test results
       run: |
-        ./gradlew build
-        cat buildReport/*.xml  # Показывает результаты тестов в консоли
+        cat build/reports/tests/test/*.xml  # Показывает результаты тестов в консоли
+        cat build/reports/checkstyle/main.html  # Показывает результаты статического анализа кода
