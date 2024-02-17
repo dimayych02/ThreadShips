@@ -25,4 +25,4 @@ jobs:
     - name: Build with Gradle
       run: |
         ./gradlew build
-        cat build/reports/tests/test/*.xml  # Показывает результаты тестов в консоли
+        cat buildReport/*.xml  # Показывает результаты тестов в консоли
