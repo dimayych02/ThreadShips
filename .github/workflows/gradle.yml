@@ -1,4 +1,4 @@
-name: Многопоточность на корабликах
+name: Компилируем многопоточность на корабликах
 on:
   push:
     branches: [ main ]
@@ -17,3 +17,5 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+    - name: Run the Java application
+      run: java -jar build/libs/your-application.jar
