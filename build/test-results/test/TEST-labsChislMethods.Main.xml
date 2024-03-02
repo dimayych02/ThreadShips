@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="labsChislMethods.Main" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-21T09:13:24" hostname="HOME" time="0.224">
+  <properties/>
+  <testcase name="solve[0](labsChislMethods.TestData$$Lambda$152/0x0000000800e02000@10c2064a)" classname="labsChislMethods.Main" time="0.083"/>
+  <testcase name="solve[1](labsChislMethods.TestData$$Lambda$153/0x0000000800e02238@64469d8)" classname="labsChislMethods.Main" time="0.005"/>
+  <system-out><![CDATA[1.2662591934204102
+5.03788353611867E-6
+19
+1.4776697158813477
+-4.099458870143735E-7
+19
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
